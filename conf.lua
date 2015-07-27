@@ -6,7 +6,7 @@ function love.conf(t)
 	-- Attach a console (boolean, Windows only)
 	t.console = false
 	-- The window title (string)
-	t.window.title = "3Doors 2015 by Sven Freiberg"
+	t.window.title = "3trees"
 	-- Filepath to an image to use as the window's icon (string)
 	t.window.icon = nil
 	-- The window width (number)
