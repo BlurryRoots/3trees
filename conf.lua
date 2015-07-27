@@ -6,13 +6,13 @@ function love.conf(t)
 	-- Attach a console (boolean, Windows only)
 	t.console = false
 	-- The window title (string)
-	t.window.title = "3Doors (c) 2015 Sven Freiberg"
+	t.window.title = "3Doors 2015 by Sven Freiberg"
 	-- Filepath to an image to use as the window's icon (string)
 	t.window.icon = nil
 	-- The window width (number)
-	t.window.width = 1280
+	t.window.width = 1024
 	-- The window height (number)
-	t.window.height = 920
+	t.window.height = 768
 	-- Remove all border visuals from the window (boolean)
 	t.window.borderless = false
 	-- Let the window be user-resizable (boolean)

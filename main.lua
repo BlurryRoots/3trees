@@ -86,9 +86,10 @@ gamedata.final_selection_state = {
 	end,
 }
 
+AGAIN = '(Right click to play again)'
 gamedata.win_state = {
 	update = function (self, dt)
-		gamedata.message = 'You won!'
+		gamedata.message = 'You won! ' .. AGAIN
 
 		return self
 	end,
@@ -105,7 +106,7 @@ gamedata.win_state = {
 
 gamedata.lost_state = {
 	update = function (self, dt)
-		gamedata.message = 'You lost!'
+		gamedata.message = 'You lost! ' .. AGAIN
 
 		return self
 	end,
